@@ -39,7 +39,7 @@ export default function InterviewSession() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/interview/evaluate",
+        "https://ai-resume-ymbi.onrender.com/api/interview/evaluate",
         {
           question: current.question,
           answer: answer,

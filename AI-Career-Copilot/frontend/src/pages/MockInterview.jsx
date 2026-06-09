@@ -10,7 +10,7 @@
 //   const startInterview = async () => {
 
 //     const response = await axios.post(
-//       "http://localhost:5000/api/interview/start",
+//       "https://ai-resume-ymbi.onrender.com/api/interview/start",
 //       {
 //         skills: [
 //           "AWS",
@@ -26,7 +26,7 @@
 //   const submitAnswer = async () => {
 
 //     const response = await axios.post(
-//       "http://localhost:5000/api/interview/evaluate",
+//       "https://ai-resume-ymbi.onrender.com/api/interview/evaluate",
 //       {
 //         question,
 //         answer
@@ -107,7 +107,7 @@
 //   const startInterview = async () => {
 
 //     const response = await axios.post(
-//       "http://localhost:5000/api/interview/start",
+//       "https://ai-resume-ymbi.onrender.com/api/interview/start",
 //       {
 //         resume: "user_resume_text_here"
 //       }
@@ -123,7 +123,7 @@
 //   const submitAnswer = async () => {
 
 //     const response = await axios.post(
-//       "http://localhost:5000/api/interview/evaluate",
+//       "https://ai-resume-ymbi.onrender.com/api/interview/evaluate",
 //       {
 //         sessionId,
 //         question,
@@ -223,7 +223,7 @@
 //       setLoading(true);
 
 //       const response = await axios.post(
-//         "http://localhost:5000/api/interview/start",
+//         "https://ai-resume-ymbi.onrender.com/api/interview/start",
 //         {
 //           resume: resumeText,
 //         }
@@ -271,7 +271,7 @@
 //       setLoading(true);
 
 //       const response = await axios.post(
-//         "http://localhost:5000/api/interview/evaluate",
+//         "https://ai-resume-ymbi.onrender.com/api/interview/evaluate",
 //         {
 //           sessionId,
 //           question,
@@ -422,7 +422,7 @@
 // const startInterview = async () => {
 //   try {
 //     const res = await axios.post(
-//       "http://localhost:5000/api/interview/start",
+//       "https://ai-resume-ymbi.onrender.com/api/interview/start",
 //       {
 //         resume: resumeText
 //       }
@@ -458,7 +458,7 @@
 //   // =========================
 // const submitAnswer = async () => {
 //   const res = await axios.post(
-//     "http://localhost:5000/api/interview/evaluate",
+//     "https://ai-resume-ymbi.onrender.com/api/interview/evaluate",
 //     {
 //       sessionId,
 //       question,

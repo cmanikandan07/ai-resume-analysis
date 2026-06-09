@@ -21,14 +21,14 @@
 //         formData.append("jd", jd);
 
 //         response = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
 //         setResult(response.data);
 //       } else {
 //         response = await axios.post(
-//           "http://localhost:5000/api/ai/analyze",
+//           "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
 //           { resume, jd }
 //         );
 
@@ -194,14 +194,14 @@
 //         formData.append("jd", jd);
 
 //         response = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
 //         setResult(response.data);
 //       } else {
 //         response = await axios.post(
-//           "http://localhost:5000/api/ai/analyze",
+//           "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
 //           { resume, jd }
 //         );
 
@@ -315,14 +315,14 @@
 //         formData.append("jd", jd);
 
 //         response = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
 //         setResult(response.data);
 //       } else {
 //         response = await axios.post(
-//           "http://localhost:5000/api/ai/analyze",
+//           "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
 //           {
 //             resume,
 //             jd,
@@ -364,7 +364,7 @@
 //         formData.append("file", file);
 
 //         const uploadRes = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
@@ -389,7 +389,7 @@
 //       setOriginalResume(resumeText);
 
 //       const response = await axios.post(
-//         "http://localhost:5000/api/resume/rewrite",
+//         "https://ai-resume-ymbi.onrender.com/api/resume/rewrite",
 //         {
 //           resume: resumeText,
 //         }
@@ -660,14 +660,14 @@
 //         formData.append("jd", jd);
 
 //         response = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
 //         setResult(response.data);
 //       } else {
 //         response = await axios.post(
-//           "http://localhost:5000/api/ai/analyze",
+//           "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
 //           {
 //             resume,
 //             jd,
@@ -708,7 +708,7 @@
 //         formData.append("file", file);
 
 //         const uploadRes = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
@@ -727,7 +727,7 @@
 //       setOriginalResume(resumeText);
 
 //       const response = await axios.post(
-//         "http://localhost:5000/api/resume/rewrite",
+//         "https://ai-resume-ymbi.onrender.com/api/resume/rewrite",
 //         {
 //           resume: resumeText,
 //         }
@@ -1028,14 +1028,14 @@
 //         formData.append("jd", jd);
 
 //         response = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
 //         setResult(response.data);
 //       } else {
 //         response = await axios.post(
-//           "http://localhost:5000/api/ai/analyze",
+//           "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
 //           {
 //             resume,
 //             jd,
@@ -1070,7 +1070,7 @@
 //         formData.append("file", file);
 
 //         const uploadRes = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
@@ -1087,7 +1087,7 @@
 //       setOriginalResume(resumeText);
 
 //       const response = await axios.post(
-//         "http://localhost:5000/api/resume/rewrite",
+//         "https://ai-resume-ymbi.onrender.com/api/resume/rewrite",
 //         {
 //           resume: resumeText,
 //         }
@@ -1119,7 +1119,7 @@
 //   const startInterview = async () => {
 //     try {
 //       const res = await axios.post(
-//         "http://localhost:5000/api/interview/start",
+//         "https://ai-resume-ymbi.onrender.com/api/interview/start",
 //         {
 //           resume: originalResume || resume,
 //         }
@@ -1342,14 +1342,14 @@
 //         formData.append("jd", jd);
 
 //         response = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
 //         setResult(response.data);
 //       } else {
 //         response = await axios.post(
-//           "http://localhost:5000/api/ai/analyze",
+//           "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
 //           {
 //             resume,
 //             jd,
@@ -1381,7 +1381,7 @@
 //         formData.append("file", file);
 
 //         const uploadRes = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
@@ -1396,7 +1396,7 @@
 //       setOriginalResume(resumeText);
 
 //       const response = await axios.post(
-//         "http://localhost:5000/api/resume/rewrite",
+//         "https://ai-resume-ymbi.onrender.com/api/resume/rewrite",
 //         { resume: resumeText }
 //       );
 
@@ -1428,7 +1428,7 @@
 //     try {
 
 //       const res = await axios.post(
-//         "http://localhost:5000/api/interview/start",
+//         "https://ai-resume-ymbi.onrender.com/api/interview/start",
 //         {
 //           resume: originalResume || resume,
 //            total_questions: selectedCount
@@ -1610,14 +1610,14 @@
 //         formData.append("jd", jd);
 
 //         response = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
 //         setResult(response.data);
 //       } else {
 //         response = await axios.post(
-//           "http://localhost:5000/api/ai/analyze",
+//           "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
 //           {
 //             resume,
 //             jd,
@@ -1648,7 +1648,7 @@
 //         formData.append("file", file);
 
 //         const uploadRes = await axios.post(
-//           "http://localhost:5000/api/resume/upload",
+//           "https://ai-resume-ymbi.onrender.com/api/resume/upload",
 //           formData
 //         );
 
@@ -1663,7 +1663,7 @@
 //       setOriginalResume(resumeText);
 
 //       const response = await axios.post(
-//         "http://localhost:5000/api/resume/rewrite",
+//         "https://ai-resume-ymbi.onrender.com/api/resume/rewrite",
 //         { resume: resumeText }
 //       );
 
@@ -1693,7 +1693,7 @@
 //   const startInterview = async () => {
 //     try {
 //       const res = await axios.post(
-//         "http://localhost:5000/api/interview/start",
+//         "https://ai-resume-ymbi.onrender.com/api/interview/start",
 //         {
 //           resume: originalResume || resume,
 //           total_questions: Number(questionCount),
@@ -1865,14 +1865,14 @@ export default function UploadPage() {
         formData.append("jd", jd);
 
         response = await axios.post(
-          "http://localhost:5000/api/resume/upload",
+          "https://ai-resume-ymbi.onrender.com/api/resume/upload",
           formData
         );
 
         setResult(response.data);
       } else {
         response = await axios.post(
-          "http://localhost:5000/api/ai/analyze",
+          "https://ai-resume-ymbi.onrender.com/api/ai/analyze",
           {
             resume,
             jd,
@@ -1903,7 +1903,7 @@ export default function UploadPage() {
         formData.append("file", file);
 
         const uploadRes = await axios.post(
-          "http://localhost:5000/api/resume/upload",
+          "https://ai-resume-ymbi.onrender.com/api/resume/upload",
           formData
         );
 
@@ -1918,7 +1918,7 @@ export default function UploadPage() {
       setOriginalResume(resumeText);
 
       const response = await axios.post(
-        "http://localhost:5000/api/resume/rewrite",
+        "https://ai-resume-ymbi.onrender.com/api/resume/rewrite",
         { resume: resumeText }
       );
 
@@ -1961,7 +1961,7 @@ export default function UploadPage() {
         formData.append("file", file);
 
         const uploadRes = await axios.post(
-          "http://localhost:5000/api/resume/upload",
+          "https://ai-resume-ymbi.onrender.com/api/resume/upload",
           formData
         );
 
@@ -1974,7 +1974,7 @@ export default function UploadPage() {
       }
 
       const res = await axios.post(
-        "http://localhost:5000/api/interview/start",
+        "https://ai-resume-ymbi.onrender.com/api/interview/start",
         {
           resume: resumeText, // 🔥 FIXED
           jd: jd || "",
