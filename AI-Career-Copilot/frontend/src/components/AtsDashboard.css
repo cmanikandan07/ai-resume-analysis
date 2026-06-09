@@ -1,0 +1,111 @@
+.dashboard-container {
+  background: #0f172a;
+  color: white;
+  padding: 30px;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+.header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* SCORE SECTION */
+.score-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.circle-wrapper {
+  width: 150px;
+}
+
+.progress-circle {
+  width: 150px;
+  height: 150px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #1e293b;
+  stroke-width: 3;
+}
+
+.circle-progress {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: 0.5s;
+}
+
+.score-text {
+  fill: white;
+  font-size: 8px;
+  text-anchor: middle;
+}
+
+/* SCORE LABEL */
+.score-label {
+  font-size: 18px;
+}
+
+.score-label p {
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* SECTION */
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.tag.green {
+  background: #14532d;
+  color: #22c55e;
+}
+
+/* LIST */
+.list {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
